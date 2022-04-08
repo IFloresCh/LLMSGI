@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0"> 
+<class>
+	<channel>
+		<title>El Periodico</title>
+		<link>https://www.elperiodico.com/es/sociedad/20220314/huelga-profesores-catalunya-fechas-calendario-13334485</link>
+		<description>Garry</description>
+	</channel>
+	<channel>
+		<title>La Vanguardia</title>
+		<link>https://www.lavanguardia.com/vida/20220315/8124890/por-que-protestan-profesores.html</link>
+		<description>Ally</description>
+	</channel>
+	<channel>
+		<title>El Pais</title>
+		<link>https://elpais.com/espana/catalunya/2022-03-30/los-profesores-de-cataluna-culminan-los-cinco-dias-de-huelga-con-las-relaciones-rotas-con-el-govern.html</link>
+		<description>Eddy</description>
+	</channel>
+	<channel>
+		<title>20 minutos</title>
+		<link>https://www.20minutos.es/noticia/4976057/0/sin-acuerdo-entre-educacio-y-docentes-que-mantienen-las-dos-jornadas-de-huelga-de-los-dias-29-y-30-de-marzo/</link>
+		<description>Eddy</description>
+	</channel>
+
+</class>
+
+</rss>

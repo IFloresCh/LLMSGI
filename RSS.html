@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="demo">
+<h1>RSS feed Isaac Flores </h1>
+
+<img  src="rss.png" alt="RSS" onclick="loadDoc()" width="250" height="250">
+</div>
+<script>
+function loadDoc() {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+document.getElementById("demo").innerHTML =
+this.responseText;
+}
+};
+
+xhttp.open("GET", "rss_data.xml", true);
+xhttp.open("GET", "rss.xsl", true);
+xhttp.send();
+}
+</script>
+</body>
+</html>
